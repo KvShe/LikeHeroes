@@ -2,7 +2,9 @@ package com.heroes.Hero;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Batch;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Vector2;
+import com.heroes.View.Animator;
 
 import java.util.ArrayList;
 
@@ -18,6 +20,9 @@ public abstract class Npc implements BaseInterface {
     protected Vector2D vector;
     protected Vector2 vector2;
     public Texture texture;
+    public TextureRegion textureRegion;
+    public int count;
+    public Animator animator;
 
     public Npc(int attack, int protection, int[] damage, int hp, int speed) {
         this.attack = attack;
@@ -27,7 +32,11 @@ public abstract class Npc implements BaseInterface {
         this.speed = speed;
         maxHp = hp;
         state = Status.STAND;
-        texture = new Texture("skeleton.png");
+        texture = null;
+        textureRegion = new TextureRegion();
+//        textureRegion.setRegion();
+        count = 0;
+
     }
 
     public int getAttack() {
@@ -116,6 +125,7 @@ public abstract class Npc implements BaseInterface {
     }
 
     public void render(Batch batch, int pivot) {
+        animator = new Animator();
         if (pivot == -1) {
             if (getClass().getSimpleName().contains("Peasant")) {
                 batch.draw(texture, vector.x + 100, vector.y, 80 * pivot, 100);
@@ -126,7 +136,6 @@ public abstract class Npc implements BaseInterface {
             } else if (getClass().getSimpleName().contains("Robber")) {
                 batch.draw(texture, vector.x + 100, vector.y, 80 * pivot, 100);
             } else if (getClass().getSimpleName().contains("Lancer")) {
-                batch.setColor(1, 1, 1, 1);
                 batch.draw(texture, vector.x + 100, vector.y, 100 * pivot, 100);
             } else {
                 batch.draw(texture, vector.x + 100, vector.y, 120 * pivot, 100);

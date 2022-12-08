@@ -8,12 +8,12 @@ import com.heroes.Hero.Vector2D;
 import java.util.ArrayList;
 
 public class Wizard extends Healer {
-    ArrayList<Npc> enemy;
-    public Wizard(ArrayList<Npc> friends, int x, int y) {
+    public Wizard(ArrayList<Npc> friends, int x, int y, int count) {
         super(17, 12, new int[]{-5, -5}, 30, 9);
         super.friends = friends;
         super.vector2 = new Vector2(x, y);
         super.vector = new Vector2D(x, y);
         super.texture = new Texture("wizard.png");
+        super.count = count;
     }
 }

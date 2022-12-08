@@ -1,6 +1,7 @@
 package com.heroes.Hero.Shooter;
 
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.heroes.Hero.Npc;
 import com.heroes.Hero.Status;
 
@@ -8,6 +9,7 @@ import java.util.List;
 
 public abstract class Shooter extends Npc {
     protected int shots;
+    public TextureAtlas atlas;
 
     public Shooter(int attack, int protection, int[] damage, int hp, int speed, int shots) {
         super(attack, protection, damage, hp, speed);
