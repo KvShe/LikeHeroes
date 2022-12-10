@@ -10,6 +10,7 @@ import com.badlogic.gdx.math.Vector2;
 import com.heroes.Hero.Npc;
 import com.heroes.Hero.Vector2D;
 import com.heroes.View.Animator;
+import com.heroes.View.AtlasAnimation;
 
 import java.util.ArrayList;
 
@@ -24,10 +25,7 @@ public class Sniper extends Shooter {
         super.vector2 = new Vector2(x, y);
         super.texture = new Texture("sniper.png");
         super.count = count;
-        atlas = new TextureAtlas(Gdx.files.internal("warrior.atlas"));
-
-        nameAtlas = "warrior.atlas";
-        nameAction = "Warrior_03__ATTACK";
-
+        TextureAtlas atlas = new TextureAtlas(Gdx.files.internal("atlases/sniper.atlas"));
+        super.animation = new AtlasAnimation(atlas, "Elf_01__IDLE", 9, Animation.PlayMode.LOOP);
     }
 }

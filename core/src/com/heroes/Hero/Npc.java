@@ -5,6 +5,7 @@ import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Vector2;
 import com.heroes.View.Animator;
+import com.heroes.View.AtlasAnimation;
 
 import java.util.ArrayList;
 
@@ -22,7 +23,7 @@ public abstract class Npc implements BaseInterface {
     public Texture texture;
     public TextureRegion textureRegion;
     public int count;
-    public Animator animator;
+    public AtlasAnimation animation;
 
     public Npc(int attack, int protection, int[] damage, int hp, int speed) {
         this.attack = attack;
@@ -34,7 +35,6 @@ public abstract class Npc implements BaseInterface {
         state = Status.STAND;
         texture = null;
         textureRegion = new TextureRegion();
-//        textureRegion.setRegion();
         count = 0;
 
     }
@@ -125,7 +125,6 @@ public abstract class Npc implements BaseInterface {
     }
 
     public void render(Batch batch, int pivot) {
-        animator = new Animator();
         if (pivot == -1) {
             if (getClass().getSimpleName().contains("Peasant")) {
                 batch.draw(texture, vector.x + 100, vector.y, 80 * pivot, 100);
@@ -157,6 +156,35 @@ public abstract class Npc implements BaseInterface {
         }
     }
 
+    public void render2(Batch batch, int pivot) {
+        if (getClass().getSimpleName().contains("Peasant")) {
+            batch.draw(texture, vector.x + 100, vector.y, 80 * pivot, 100);
+        } else if (getClass().getSimpleName().contains("Sniper")) {
+            batch.draw(texture, vector.x + 100, vector.y, 80 * pivot, 100);
+        } else if (getClass().getSimpleName().contains("Monk")) {
+            batch.draw(texture, vector.x + 100, vector.y, 100 * pivot, 100);
+        } else if (getClass().getSimpleName().contains("Robber")) {
+            batch.draw(texture, vector.x + 100, vector.y, 80 * pivot, 100);
+        } else if (getClass().getSimpleName().contains("Lancer")) {
+            batch.draw(texture, vector.x + 100, vector.y, 100 * pivot, 100);
+        } else {
+            batch.draw(texture, vector.x + 100, vector.y, 120 * pivot, 100);
+        }
+        if (getClass().getSimpleName().contains("Peasant")) {
+            batch.draw(texture, vector.x, vector.y, 80 * pivot, 100);
+        } else if (getClass().getSimpleName().contains("Sniper")) {
+            batch.draw(texture, vector.x, vector.y, 80 * pivot, 100);
+        } else if (getClass().getSimpleName().contains("Monk")) {
+            batch.draw(texture, vector.x, vector.y, 100 * pivot, 100);
+        } else if (getClass().getSimpleName().contains("Robber")) {
+            batch.draw(texture, vector.x, vector.y, 80 * pivot, 100);
+        } else if (getClass().getSimpleName().contains("Lancer")) {
+            batch.draw(texture, vector.x, vector.y, 100 * pivot, 100);
+        } else {
+            batch.draw(texture, vector.x, vector.y, 120 * pivot, 100);
+        }
+    }
+
     public void dispose() {
         texture.dispose();
     }
@@ -169,6 +197,7 @@ public abstract class Npc implements BaseInterface {
         }
         return false;
     }
+
     public boolean isFree(ArrayList<Npc> enemies) {
         for (Npc enemy : enemies) {
             if (getVector().x == enemy.vector.x && getVector().y == enemy.vector.y) return true;

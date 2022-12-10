@@ -5,6 +5,7 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
+import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.utils.ScreenUtils;
@@ -18,8 +19,11 @@ import com.heroes.Hero.Warrior.Lancer;
 import com.heroes.Hero.Warrior.Peasant;
 import com.heroes.Hero.Warrior.Robber;
 import com.heroes.View.ViewUI;
+import sun.security.util.ArrayUtil;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 
 public class Heroes extends ApplicationAdapter {
     public static final int WITH = 1100;
@@ -29,7 +33,7 @@ public class Heroes extends ApplicationAdapter {
     public static final int LOWER_BOUND = 0;
     public static final int UPPER_BOUND = 1100;
     SpriteBatch batch;
-    private ViewUI adapter = new ViewUI();
+    private final ViewUI adapter = new ViewUI();
     BitmapFont font;
     private Music backgroundMusic;
     private Texture board;
@@ -47,6 +51,9 @@ public class Heroes extends ApplicationAdapter {
 
 //		img = new Texture("skeleton.png");
         addHeroes();
+        for (Npc value : black) {
+            value.animation.reverse();
+        }
     }
 
     @Override
@@ -57,20 +64,59 @@ public class Heroes extends ApplicationAdapter {
         batch.begin();
 
         batch.draw(board, 0, 0);
-        for (Npc npc : green) {
+        for (int i = green.size() - 1; i >= 0; i--) {
+            Npc npc = green.get(i);
             if (npc.getState() == Status.DEAD && npc.isFree(black)) {
                 continue;
             }
-            npc.render(batch, 1);
+
+            npc.animation.setTime(Gdx.graphics.getDeltaTime());
+            batch.draw(npc.animation.getFrame(), npc.getVector().x - 200, npc.getVector().y - 70);
+//            npc.render(batch, 1);
             font.draw(batch, npc.getInfo(), npc.getVector().x + 50, npc.getVector().y + 15);
         }
-        for (Npc npc : black) {
+
+//        for (Npc npc : green) {
+//            if (npc.getState() == Status.DEAD && npc.isFree(black)) {
+//                continue;
+//            }
+//            npc.animation.setTime(Gdx.graphics.getDeltaTime());
+//            batch.draw(npc.animation.getFrame(), npc.getVector().x - 200, npc.getVector().y - 70);
+////            npc.render(batch, 1);
+//            font.draw(batch, npc.getInfo(), npc.getVector().x + 50, npc.getVector().y + 15);
+//        }
+
+//        for (Npc value : black) {
+//            value.animation.reverse();
+//        }
+
+        for (int i = black.size() - 1; i >= 0; i--) {
+            Npc npc = black.get(i);
             if (npc.getState() == Status.DEAD && npc.isFree(green)) {
                 continue;
             }
-            npc.render(batch, -1);
-            font.draw(batch, npc.getInfo(), npc.getVector().x + 20, npc.getVector().y + 15);
+
+
+
+            npc.animation.setTime(Gdx.graphics.getDeltaTime());
+//            npc.animation.reverse();
+            batch.draw(npc.animation.getFrame(), npc.getVector().x - 200, npc.getVector().y - 70);
+//            npc.render(batch, 1);
+            font.draw(batch, npc.getInfo(), npc.getVector().x + 50, npc.getVector().y + 15);
         }
+
+
+//        for (Npc npc : black) {
+//            if (npc.getState() == Status.DEAD && npc.isFree(green)) {
+//                continue;
+//            }
+//            npc.animation.setTime(Gdx.graphics.getDeltaTime());
+//
+//            batch.draw(npc.animation.getFrame(), npc.getVector().x - 200, npc.getVector().y);
+//
+////            npc.render(batch, -1);
+//            font.draw(batch, npc.getInfo(), npc.getVector().x + 20, npc.getVector().y + 15);
+//        }
         batch.end();
     }
 

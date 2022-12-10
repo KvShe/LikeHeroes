@@ -1,10 +1,13 @@
 package com.heroes.Hero.Warrior;
 
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.Animation;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.math.Vector2;
 import com.heroes.Hero.Npc;
 import com.heroes.Hero.Status;
 import com.heroes.Hero.Vector2D;
+import com.heroes.View.AtlasAnimation;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,6 +20,8 @@ public class Peasant extends Warrior {
         super.vector2 = new Vector2(x, y);
         super.texture = new Texture("peasant.png");
         super.count = count;
+        TextureAtlas atlas = new TextureAtlas("atlases/peasant.atlas");
+        super.animation = new AtlasAnimation(atlas, "0_Fallen_Angels_Idle Blinking", 9, Animation.PlayMode.LOOP);
     }
 
     @Override

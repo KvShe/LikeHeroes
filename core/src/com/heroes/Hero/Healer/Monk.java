@@ -1,9 +1,12 @@
 package com.heroes.Hero.Healer;
 
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.Animation;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.math.Vector2;
 import com.heroes.Hero.Npc;
 import com.heroes.Hero.Vector2D;
+import com.heroes.View.AtlasAnimation;
 
 import java.util.ArrayList;
 
@@ -15,6 +18,7 @@ public class Monk extends Healer {
         super.vector = new Vector2D(x, y);
         super.texture = new Texture("monk.png");
         super.count = count;
+        TextureAtlas atlas = new TextureAtlas("atlases/monk.atlas");
+        super.animation = new AtlasAnimation(atlas, "Fairy_03__IDLE", 9, Animation.PlayMode.LOOP);
     }
-
 }
