@@ -1,0 +1,362 @@
+
+robber.png
+size: 2048, 2048
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+Troll_03_1_ATTACK
+  rotate: false
+  xy: 2, 1210
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 7
+Troll_03_1_ATTACK
+  rotate: false
+  xy: 966, 1210
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 4
+Troll_03_1_ATTACK
+  rotate: false
+  xy: 1448, 1210
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 9
+Troll_03_1_ATTACK
+  rotate: false
+  xy: 484, 304
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 1
+Troll_03_1_ATTACK
+  rotate: false
+  xy: 966, 304
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 6
+Troll_03_1_DIE
+  rotate: false
+  xy: 2, 1512
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 8
+Troll_03_1_DIE
+  rotate: false
+  xy: 2, 1512
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 9
+Troll_03_1_DIE
+  rotate: false
+  xy: 2, 908
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 0
+Troll_03_1_HURT
+  rotate: false
+  xy: 2, 908
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 0
+Troll_03_1_IDLE
+  rotate: false
+  xy: 2, 908
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 0
+Troll_03_1_DIE
+  rotate: false
+  xy: 1448, 1512
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 5
+Troll_03_1_DIE
+  rotate: false
+  xy: 2, 2
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 2
+Troll_03_1_DIE
+  rotate: false
+  xy: 484, 2
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 7
+Troll_03_1_HURT
+  rotate: false
+  xy: 484, 1512
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 7
+Troll_03_1_HURT
+  rotate: false
+  xy: 484, 1512
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 3
+Troll_03_1_HURT
+  rotate: false
+  xy: 484, 908
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 4
+Troll_03_1_HURT
+  rotate: false
+  xy: 484, 908
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 6
+Troll_03_1_HURT
+  rotate: false
+  xy: 966, 908
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 9
+Troll_03_1_HURT
+  rotate: false
+  xy: 966, 908
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 1
+Troll_03_1_IDLE
+  rotate: false
+  xy: 484, 1210
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 2
+Troll_03_1_IDLE
+  rotate: false
+  xy: 2, 304
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 7
+Troll_03_1_IDLE
+  rotate: false
+  xy: 966, 606
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 4
+Troll_03_1_IDLE
+  rotate: false
+  xy: 1448, 606
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 9
+Troll_03_1_IDLE
+  rotate: false
+  xy: 966, 2
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 1
+Troll_03_1_RUN
+  rotate: false
+  xy: 966, 1512
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 9
+Troll_03_1_RUN
+  rotate: false
+  xy: 2, 606
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 1
+Troll_03_1_RUN
+  rotate: false
+  xy: 484, 606
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 6
+Troll_03_1_RUN
+  rotate: false
+  xy: 1448, 908
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 3
+Troll_03_1_RUN
+  rotate: false
+  xy: 1448, 304
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 8
+Troll_03_1_RUN
+  rotate: false
+  xy: 1448, 2
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 0
+
+robber2.png
+size: 2048, 2048
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+Troll_03_1_ATTACK
+  rotate: false
+  xy: 2, 1210
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 3
+Troll_03_1_ATTACK
+  rotate: false
+  xy: 966, 1512
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 8
+Troll_03_1_ATTACK
+  rotate: false
+  xy: 484, 908
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 0
+Troll_03_1_ATTACK
+  rotate: false
+  xy: 484, 606
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 5
+Troll_03_1_ATTACK
+  rotate: false
+  xy: 484, 304
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 2
+Troll_03_1_DIE
+  rotate: false
+  xy: 2, 1512
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 4
+Troll_03_1_DIE
+  rotate: false
+  xy: 2, 606
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 1
+Troll_03_1_DIE
+  rotate: false
+  xy: 2, 304
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 6
+Troll_03_1_DIE
+  rotate: false
+  xy: 966, 606
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 3
+Troll_03_1_HURT
+  rotate: false
+  xy: 484, 1210
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 8
+Troll_03_1_HURT
+  rotate: false
+  xy: 484, 1210
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 2
+Troll_03_1_HURT
+  rotate: false
+  xy: 966, 908
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 5
+Troll_03_1_IDLE
+  rotate: false
+  xy: 484, 1512
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 6
+Troll_03_1_IDLE
+  rotate: false
+  xy: 966, 1210
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 3
+Troll_03_1_IDLE
+  rotate: false
+  xy: 1448, 1210
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 8
+Troll_03_1_IDLE
+  rotate: false
+  xy: 1448, 908
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 5
+Troll_03_1_RUN
+  rotate: false
+  xy: 2, 908
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 5
+Troll_03_1_RUN
+  rotate: false
+  xy: 1448, 1512
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 2
+Troll_03_1_RUN
+  rotate: false
+  xy: 2, 2
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 7
+Troll_03_1_RUN
+  rotate: false
+  xy: 484, 2
+  size: 480, 300
+  orig: 480, 300
+  offset: 0, 0
+  index: 4

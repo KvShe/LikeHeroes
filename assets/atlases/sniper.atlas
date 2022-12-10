@@ -1,0 +1,292 @@
+
+sniper.png
+size: 2048, 2048
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+Elf_01__ATTACK
+  rotate: false
+  xy: 575, 1512
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 8
+Elf_01__ATTACK
+  rotate: false
+  xy: 1148, 1512
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 0
+Elf_01__ATTACK
+  rotate: false
+  xy: 1148, 1210
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 5
+Elf_01__ATTACK
+  rotate: false
+  xy: 575, 304
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 2
+Elf_01__ATTACK
+  rotate: false
+  xy: 1148, 304
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 7
+Elf_01__DIE
+  rotate: false
+  xy: 2, 1512
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 5
+Elf_01__DIE
+  rotate: false
+  xy: 2, 606
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 2
+Elf_01__DIE
+  rotate: false
+  xy: 575, 606
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 7
+Elf_01__DIE
+  rotate: false
+  xy: 1148, 606
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 4
+Elf_01__DIE
+  rotate: false
+  xy: 1148, 2
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 9
+Elf_01__DIE
+  rotate: false
+  xy: 1148, 2
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 8
+Elf_01__HURT
+  rotate: false
+  xy: 2, 1210
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 8
+Elf_01__HURT
+  rotate: false
+  xy: 575, 1210
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 0
+Elf_01__IDLE
+  rotate: false
+  xy: 575, 1210
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 0
+Elf_01__HURT
+  rotate: false
+  xy: 575, 908
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 5
+Elf_01__HURT
+  rotate: false
+  xy: 2, 2
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 2
+Elf_01__HURT
+  rotate: false
+  xy: 575, 2
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 7
+Elf_01__IDLE
+  rotate: false
+  xy: 2, 908
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 7
+Elf_01__IDLE
+  rotate: false
+  xy: 2, 908
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 3
+Elf_01__IDLE
+  rotate: false
+  xy: 2, 304
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 4
+Elf_01__IDLE
+  rotate: false
+  xy: 2, 304
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 6
+Elf_01__IDLE
+  rotate: false
+  xy: 1148, 908
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 9
+Elf_01__IDLE
+  rotate: false
+  xy: 1148, 908
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 1
+
+sniper2.png
+size: 2048, 2048
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+Elf_01__ATTACK
+  rotate: false
+  xy: 575, 1512
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 4
+Elf_01__ATTACK
+  rotate: false
+  xy: 1148, 1512
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 9
+Elf_01__ATTACK
+  rotate: false
+  xy: 1148, 1210
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 1
+Elf_01__ATTACK
+  rotate: false
+  xy: 1148, 908
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 6
+Elf_01__ATTACK
+  rotate: false
+  xy: 575, 2
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 3
+Elf_01__DIE
+  rotate: false
+  xy: 2, 1512
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 1
+Elf_01__DIE
+  rotate: false
+  xy: 2, 908
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 6
+Elf_01__DIE
+  rotate: false
+  xy: 2, 304
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 3
+Elf_01__DIE
+  rotate: false
+  xy: 575, 304
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 0
+Elf_01__HURT
+  rotate: false
+  xy: 2, 1210
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 4
+Elf_01__HURT
+  rotate: false
+  xy: 575, 1210
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 9
+Elf_01__HURT
+  rotate: false
+  xy: 575, 908
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 1
+Elf_01__HURT
+  rotate: false
+  xy: 575, 606
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 6
+Elf_01__HURT
+  rotate: false
+  xy: 1148, 606
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 3
+Elf_01__IDLE
+  rotate: false
+  xy: 2, 606
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 8
+Elf_01__IDLE
+  rotate: false
+  xy: 2, 606
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 2
+Elf_01__IDLE
+  rotate: false
+  xy: 2, 2
+  size: 571, 300
+  orig: 571, 300
+  offset: 0, 0
+  index: 5

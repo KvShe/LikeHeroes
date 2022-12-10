@@ -1,0 +1,292 @@
+
+Lancer.png
+size: 2048, 2048
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+Knight_01__ATTACK
+  rotate: false
+  xy: 2, 1682
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 7
+Knight_01__ATTACK
+  rotate: false
+  xy: 504, 1402
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 4
+Knight_01__ATTACK
+  rotate: false
+  xy: 1508, 1682
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 9
+Knight_01__ATTACK
+  rotate: false
+  xy: 1006, 1122
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 1
+Knight_01__ATTACK
+  rotate: false
+  xy: 504, 562
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 6
+Knight_01__ATTACK
+  rotate: false
+  xy: 1006, 562
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 3
+Knight_01__ATTACK
+  rotate: false
+  xy: 1508, 562
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 8
+Knight_01__ATTACK
+  rotate: false
+  xy: 1508, 2
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 0
+Knight_01__DIE
+  rotate: false
+  xy: 2, 1402
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 6
+Knight_01__DIE
+  rotate: false
+  xy: 1006, 1682
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 3
+Knight_01__DIE
+  rotate: false
+  xy: 2, 562
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 8
+Knight_01__DIE
+  rotate: false
+  xy: 1508, 1402
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 0
+Knight_01__IDLE
+  rotate: false
+  xy: 1508, 1402
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 0
+Knight_01__DIE
+  rotate: false
+  xy: 1006, 842
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 5
+Knight_01__DIE
+  rotate: false
+  xy: 1508, 842
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 2
+Knight_01__DIE
+  rotate: false
+  xy: 1006, 2
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 7
+Knight_01__HURT
+  rotate: false
+  xy: 504, 1682
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 5
+Knight_01__HURT
+  rotate: false
+  xy: 2, 842
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 2
+Knight_01__HURT
+  rotate: false
+  xy: 504, 842
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 7
+Knight_01__HURT
+  rotate: false
+  xy: 1508, 1122
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 4
+Knight_01__HURT
+  rotate: false
+  xy: 504, 282
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 9
+Knight_01__HURT
+  rotate: false
+  xy: 1006, 282
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 1
+Knight_01__HURT
+  rotate: false
+  xy: 1508, 282
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 6
+Knight_01__IDLE
+  rotate: false
+  xy: 2, 1122
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 4
+Knight_01__IDLE
+  rotate: false
+  xy: 504, 1122
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 9
+Knight_01__IDLE
+  rotate: false
+  xy: 1006, 1402
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 1
+Knight_01__IDLE
+  rotate: false
+  xy: 2, 282
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 6
+Knight_01__IDLE
+  rotate: false
+  xy: 2, 2
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 3
+Knight_01__IDLE
+  rotate: false
+  xy: 504, 2
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 8
+
+Lancer2.png
+size: 2048, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+Knight_01__ATTACK
+  rotate: false
+  xy: 2, 282
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 5
+Knight_01__ATTACK
+  rotate: false
+  xy: 1006, 282
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 2
+Knight_01__DIE
+  rotate: false
+  xy: 504, 562
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 4
+Knight_01__DIE
+  rotate: false
+  xy: 1006, 562
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 9
+Knight_01__DIE
+  rotate: false
+  xy: 1508, 562
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 1
+Knight_01__HURT
+  rotate: false
+  xy: 2, 2
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 3
+Knight_01__HURT
+  rotate: false
+  xy: 504, 2
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 8
+Knight_01__HURT
+  rotate: false
+  xy: 1006, 2
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 0
+Knight_01__IDLE
+  rotate: false
+  xy: 2, 562
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 5
+Knight_01__IDLE
+  rotate: false
+  xy: 504, 282
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 2
+Knight_01__IDLE
+  rotate: false
+  xy: 1508, 282
+  size: 500, 278
+  orig: 500, 278
+  offset: 0, 0
+  index: 7
