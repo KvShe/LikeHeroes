@@ -1,292 +1,362 @@
 
-Lancer.png
+lancer.png
 size: 2048, 2048
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-Knight_01__ATTACK
+Elf_02__ATTACK
   rotate: false
-  xy: 2, 1682
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 7
-Knight_01__ATTACK
-  rotate: false
-  xy: 504, 1402
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 4
-Knight_01__ATTACK
-  rotate: false
-  xy: 1508, 1682
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 9
-Knight_01__ATTACK
-  rotate: false
-  xy: 1006, 1122
-  size: 500, 278
-  orig: 500, 278
+  xy: 2, 1512
+  size: 300, 300
+  orig: 300, 300
   offset: 0, 0
   index: 1
-Knight_01__ATTACK
+Elf_02__ATTACK
   rotate: false
-  xy: 504, 562
-  size: 500, 278
-  orig: 500, 278
+  xy: 304, 1210
+  size: 300, 300
+  orig: 300, 300
   offset: 0, 0
   index: 6
-Knight_01__ATTACK
+Elf_02__ATTACK
   rotate: false
-  xy: 1006, 562
-  size: 500, 278
-  orig: 500, 278
+  xy: 606, 908
+  size: 300, 300
+  orig: 300, 300
   offset: 0, 0
   index: 3
-Knight_01__ATTACK
-  rotate: false
-  xy: 1508, 562
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 8
-Knight_01__ATTACK
-  rotate: false
-  xy: 1508, 2
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 0
-Knight_01__DIE
-  rotate: false
-  xy: 2, 1402
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 6
-Knight_01__DIE
-  rotate: false
-  xy: 1006, 1682
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 3
-Knight_01__DIE
-  rotate: false
-  xy: 2, 562
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 8
-Knight_01__DIE
-  rotate: false
-  xy: 1508, 1402
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 0
-Knight_01__IDLE
-  rotate: false
-  xy: 1508, 1402
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 0
-Knight_01__DIE
-  rotate: false
-  xy: 1006, 842
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 5
-Knight_01__DIE
-  rotate: false
-  xy: 1508, 842
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 2
-Knight_01__DIE
-  rotate: false
-  xy: 1006, 2
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 7
-Knight_01__HURT
-  rotate: false
-  xy: 504, 1682
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 5
-Knight_01__HURT
-  rotate: false
-  xy: 2, 842
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 2
-Knight_01__HURT
-  rotate: false
-  xy: 504, 842
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 7
-Knight_01__HURT
-  rotate: false
-  xy: 1508, 1122
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 4
-Knight_01__HURT
-  rotate: false
-  xy: 504, 282
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 9
-Knight_01__HURT
-  rotate: false
-  xy: 1006, 282
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 1
-Knight_01__HURT
-  rotate: false
-  xy: 1508, 282
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 6
-Knight_01__IDLE
-  rotate: false
-  xy: 2, 1122
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 4
-Knight_01__IDLE
-  rotate: false
-  xy: 504, 1122
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 9
-Knight_01__IDLE
-  rotate: false
-  xy: 1006, 1402
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 1
-Knight_01__IDLE
-  rotate: false
-  xy: 2, 282
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 6
-Knight_01__IDLE
+Elf_02__ATTACK
   rotate: false
   xy: 2, 2
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 3
-Knight_01__IDLE
-  rotate: false
-  xy: 504, 2
-  size: 500, 278
-  orig: 500, 278
+  size: 300, 300
+  orig: 300, 300
   offset: 0, 0
   index: 8
+Elf_02__ATTACK
+  rotate: false
+  xy: 908, 606
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 5
+Elf_02__ATTACK
+  rotate: false
+  xy: 1512, 908
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 2
+Elf_02__ATTACK
+  rotate: false
+  xy: 1512, 304
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 7
+Elf_02__DIE
+  rotate: false
+  xy: 304, 1512
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 4
+Elf_02__DIE
+  rotate: false
+  xy: 606, 1210
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 9
+Elf_02__DIE
+  rotate: false
+  xy: 908, 1512
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 1
+Elf_02__DIE
+  rotate: false
+  xy: 1210, 1512
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 6
+Elf_02__DIE
+  rotate: false
+  xy: 1512, 1512
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 3
+Elf_02__DIE
+  rotate: false
+  xy: 1512, 1210
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 8
+Elf_02__DIE
+  rotate: false
+  xy: 908, 304
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 0
+Elf_02__DIE
+  rotate: false
+  xy: 1512, 606
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 5
+Elf_02__HURT
+  rotate: false
+  xy: 2, 1210
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 8
+Elf_02__HURT
+  rotate: false
+  xy: 606, 1512
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 0
+Elf_02__ATTACK
+  rotate: false
+  xy: 606, 1512
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 0
+Elf_02__HURT
+  rotate: false
+  xy: 2, 304
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 5
+Elf_02__HURT
+  rotate: false
+  xy: 304, 304
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 2
+Elf_02__HURT
+  rotate: false
+  xy: 304, 2
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 7
+Elf_02__HURT
+  rotate: false
+  xy: 606, 2
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 4
+Elf_02__HURT
+  rotate: false
+  xy: 1210, 304
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 9
+Elf_02__HURT
+  rotate: false
+  xy: 1512, 2
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 1
+Elf_02__IDLE
+  rotate: false
+  xy: 2, 606
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 7
+Elf_02__IDLE
+  rotate: false
+  xy: 304, 606
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 4
+Elf_02__IDLE
+  rotate: false
+  xy: 606, 606
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 9
+Elf_02__IDLE
+  rotate: false
+  xy: 1210, 1210
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 1
+Elf_02__IDLE
+  rotate: false
+  xy: 606, 304
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 6
+Elf_02__IDLE
+  rotate: false
+  xy: 908, 2
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 3
+Elf_02__WALK
+  rotate: false
+  xy: 2, 908
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 8
+Elf_02__WALK
+  rotate: false
+  xy: 304, 908
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 0
+Elf_02__WALK
+  rotate: false
+  xy: 908, 1210
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 5
+Elf_02__WALK
+  rotate: false
+  xy: 908, 908
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 2
+Elf_02__WALK
+  rotate: false
+  xy: 1210, 908
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 7
+Elf_02__WALK
+  rotate: false
+  xy: 1210, 606
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 4
+Elf_02__WALK
+  rotate: false
+  xy: 1210, 2
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 9
 
-Lancer2.png
+lancer2.png
 size: 2048, 1024
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-Knight_01__ATTACK
+Elf_02__ATTACK
   rotate: false
-  xy: 2, 282
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 5
-Knight_01__ATTACK
-  rotate: false
-  xy: 1006, 282
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 2
-Knight_01__DIE
-  rotate: false
-  xy: 504, 562
-  size: 500, 278
-  orig: 500, 278
+  xy: 304, 2
+  size: 300, 300
+  orig: 300, 300
   offset: 0, 0
   index: 4
-Knight_01__DIE
+Elf_02__ATTACK
   rotate: false
-  xy: 1006, 562
-  size: 500, 278
-  orig: 500, 278
+  xy: 606, 2
+  size: 300, 300
+  orig: 300, 300
   offset: 0, 0
   index: 9
-Knight_01__DIE
+Elf_02__DIE
   rotate: false
-  xy: 1508, 562
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 1
-Knight_01__HURT
-  rotate: false
-  xy: 2, 2
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 3
-Knight_01__HURT
-  rotate: false
-  xy: 504, 2
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 8
-Knight_01__HURT
-  rotate: false
-  xy: 1006, 2
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 0
-Knight_01__IDLE
-  rotate: false
-  xy: 2, 562
-  size: 500, 278
-  orig: 500, 278
-  offset: 0, 0
-  index: 5
-Knight_01__IDLE
-  rotate: false
-  xy: 504, 282
-  size: 500, 278
-  orig: 500, 278
+  xy: 304, 304
+  size: 300, 300
+  orig: 300, 300
   offset: 0, 0
   index: 2
-Knight_01__IDLE
+Elf_02__DIE
   rotate: false
-  xy: 1508, 282
-  size: 500, 278
-  orig: 500, 278
+  xy: 908, 606
+  size: 300, 300
+  orig: 300, 300
   offset: 0, 0
   index: 7
+Elf_02__HURT
+  rotate: false
+  xy: 2, 2
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 6
+Elf_02__HURT
+  rotate: false
+  xy: 908, 304
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 3
+Elf_02__IDLE
+  rotate: false
+  xy: 2, 606
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 8
+Elf_02__IDLE
+  rotate: false
+  xy: 2, 304
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 0
+Elf_02__IDLE
+  rotate: false
+  xy: 606, 304
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 5
+Elf_02__IDLE
+  rotate: false
+  xy: 908, 2
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 2
+Elf_02__WALK
+  rotate: false
+  xy: 304, 606
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 1
+Elf_02__WALK
+  rotate: false
+  xy: 606, 606
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 6
+Elf_02__WALK
+  rotate: false
+  xy: 1210, 606
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: 3

@@ -19,6 +19,6 @@ public class Lancer extends Warrior {
         super.texture = new Texture("lancer.png");
         super.count = count;
         TextureAtlas atlas = new TextureAtlas("atlases/lancer.atlas");
-        super.animation = new AtlasAnimation(atlas, "Knight_01__IDLE", 9, Animation.PlayMode.LOOP);
+        super.animation = new AtlasAnimation(atlas, "Elf_02__IDLE", 9, Animation.PlayMode.LOOP);
     }
 }

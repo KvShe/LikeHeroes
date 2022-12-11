@@ -1,5 +1,5 @@
 
-Peasant.png
+peasant.png
 size: 2048, 2048
 format: RGBA8888
 filter: Nearest, Nearest
@@ -31,14 +31,14 @@ repeat: none
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
-  index: 12
+  index: 13
 0_Fallen_Angels_Dying
   rotate: false
   xy: 304, 908
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
-  index: 13
+  index: 12
 0_Fallen_Angels_Dying
   rotate: false
   xy: 304, 908
@@ -285,7 +285,7 @@ repeat: none
   offset: 0, 0
   index: 15
 
-Peasant2.png
+peasant2.png
 size: 2048, 512
 format: RGBA8888
 filter: Nearest, Nearest
