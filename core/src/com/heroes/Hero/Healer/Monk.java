@@ -15,10 +15,9 @@ public class Monk extends Healer {
         super(12, 7, new int[]{-4, -4}, 30, 5);
         super.friends = friends;
         super.vector2 = new Vector2(x, y);
-        super.vector = new Vector2D(x, y);
-        super.texture = new Texture("monk.png");
+        super.vector2D = new Vector2D(x, y);
         super.count = count;
-        TextureAtlas atlas = new TextureAtlas("atlases/monk.atlas");
-        super.animation = new AtlasAnimation(atlas, "Fairy_03__IDLE", 9, Animation.PlayMode.LOOP);
+        atlas = new TextureAtlas("atlases/monk.atlas");
+        super.animation = new AtlasAnimation(atlas, "IDLE", 9, Animation.PlayMode.LOOP);
     }
 }

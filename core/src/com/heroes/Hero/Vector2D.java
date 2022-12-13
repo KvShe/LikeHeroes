@@ -1,6 +1,5 @@
 package com.heroes.Hero;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Vector2D {
@@ -25,7 +24,7 @@ public class Vector2D {
         double minDistance = Double.MAX_VALUE;
         for (int i = 0; i < enemies.size(); i++) {
             if (enemies.get(i).getState() != Status.DEAD) {
-                double distance = distance(enemies.get(i).getVector());
+                double distance = distance(enemies.get(i).getVector2D());
                 if (minDistance > distance) {
                     minDistance = distance;
                     indexOpponent = i;
@@ -34,7 +33,12 @@ public class Vector2D {
         }
         return enemies.get(indexOpponent);
     }
-    public boolean isEquals(Vector2D vector) {
-        return this.x == vector.x && this.y == vector.y;
+    public boolean isValid(Vector2D vector2D, List<Npc> friends) {
+        for (Npc friend : friends) {
+            if (vector2D.equals(friend.getVector2D()) && friend.getState() != Status.DEAD) {
+                return false;
+            }
+        }
+        return true;
     }
 }

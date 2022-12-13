@@ -1,7 +1,5 @@
 package com.heroes.Hero.Shooter;
 
-import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.heroes.Hero.Npc;
 import com.heroes.Hero.Status;
 
@@ -29,20 +27,24 @@ public abstract class Shooter extends Npc {
 //            }
 //        }
         if (this.shots < 1) return;
-        Npc opponent = this.vector.findNearestOpponent(team);
+        Npc opponent = this.vector2D.findNearestOpponent(team);
         this.damage(opponent);
-        System.out.println(getClass().getSimpleName() + " -> " + opponent.getClass().getSimpleName()); // TODO
+        setState(Status.ATTACK);
+        System.out.println(getClass().getSimpleName() + " -> " + opponent.getClass().getSimpleName()); // TODO: 13.12.2022
         this.shots--;
+
     }
 
     @Override
-    public void damage(Npc hero) {
+    public void damage(Npc enemy) {
+
         int harm;
-        if (this.getAttack() == hero.getProtection()) harm = (this.getDamage()[0] + this.getDamage()[1]) / 2;
-        else if (this.getAttack() > hero.getProtection()) harm = this.getDamage()[1];
+        if (this.getAttack() == enemy.getProtection()) harm = (this.getDamage()[0] + this.getDamage()[1]) / 2;
+        else if (this.getAttack() > enemy.getProtection()) harm = this.getDamage()[1];
         else harm = this.getDamage()[0];
 
-        if (this.getVector().distance(hero.getVector()) > this.getSpeed()) harm /= 2;
-        hero.setHp(hero.getHp() - harm);
+        if (this.getVector2D().distance(enemy.getVector2D()) > this.getSpeed()) harm /= 2;
+
+        enemy.setHp(enemy.getHp() - harm);
     }
 }

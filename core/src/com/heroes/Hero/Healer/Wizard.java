@@ -15,10 +15,9 @@ public class Wizard extends Healer {
         super(17, 12, new int[]{-5, -5}, 30, 9);
         super.friends = friends;
         super.vector2 = new Vector2(x, y);
-        super.vector = new Vector2D(x, y);
-        super.texture = new Texture("wizard.png");
+        super.vector2D = new Vector2D(x, y);
         super.count = count;
-        TextureAtlas atlas = new TextureAtlas("atlases/wizard.atlas");
-        super.animation = new AtlasAnimation(atlas, "Elf_03__IDLE", 9, Animation.PlayMode.LOOP);
+        atlas = new TextureAtlas("atlases/wizard.atlas");
+        super.animation = new AtlasAnimation(atlas, "IDLE", 9, Animation.PlayMode.LOOP);
     }
 }

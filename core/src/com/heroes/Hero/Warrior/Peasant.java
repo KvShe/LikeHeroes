@@ -16,12 +16,11 @@ public class Peasant extends Warrior {
     public Peasant(ArrayList<Npc> friends, int x, int y, int count) {
         super(4, 5, new int[]{1, 3}, 10, 4);
         super.friends = friends;
-        super.vector = new Vector2D(x, y);
+        super.vector2D = new Vector2D(x, y);
         super.vector2 = new Vector2(x, y);
-        super.texture = new Texture("peasant.png");
         super.count = count;
-        TextureAtlas atlas = new TextureAtlas("atlases/peasant.atlas");
-        super.animation = new AtlasAnimation(atlas, "0_Fallen_Angels_Idle Blinking", 9, Animation.PlayMode.LOOP);
+        atlas = new TextureAtlas("atlases/peasant.atlas");
+        super.animation = new AtlasAnimation(atlas, "IDLE", 9, Animation.PlayMode.LOOP);
     }
 
     @Override

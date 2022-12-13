@@ -4,238 +4,238 @@ size: 2048, 2048
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-Warrior_03__ATTACK
+ATTACK
   rotate: false
   xy: 2, 1210
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 7
-Warrior_03__ATTACK
+ATTACK
   rotate: false
   xy: 908, 1512
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 4
-Warrior_03__ATTACK
+ATTACK
   rotate: false
   xy: 606, 908
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 9
-Warrior_03__ATTACK
+ATTACK
   rotate: false
   xy: 2, 2
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 1
-Warrior_03__ATTACK
+ATTACK
   rotate: false
   xy: 1512, 1512
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 6
-Warrior_03__ATTACK
+ATTACK
   rotate: false
   xy: 908, 304
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 3
-Warrior_03__ATTACK
+ATTACK
   rotate: false
   xy: 908, 2
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 8
-Warrior_03__ATTACK
+ATTACK
   rotate: false
   xy: 1512, 606
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 0
-Warrior_03__DIE
+DIE
   rotate: false
   xy: 2, 1512
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 9
-Warrior_03__DIE
+DIE
   rotate: false
   xy: 304, 1210
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 1
-Warrior_03__DIE
+DIE
   rotate: false
   xy: 304, 908
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 6
-Warrior_03__DIE
+DIE
   rotate: false
   xy: 1210, 1512
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 3
-Warrior_03__DIE
+DIE
   rotate: false
   xy: 908, 908
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 8
-Warrior_03__DIE
+DIE
   rotate: false
   xy: 606, 304
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 0
-Warrior_03__HURT
+HURT
   rotate: false
   xy: 606, 304
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 0
-Warrior_03__DIE
+DIE
   rotate: false
   xy: 606, 2
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 5
-Warrior_03__DIE
+DIE
   rotate: false
   xy: 1210, 304
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 2
-Warrior_03__DIE
+DIE
   rotate: false
   xy: 1512, 2
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 7
-Warrior_03__HURT
+HURT
   rotate: false
   xy: 2, 908
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 2
-Warrior_03__HURT
+HURT
   rotate: false
   xy: 2, 908
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 8
-Warrior_03__HURT
+HURT
   rotate: false
   xy: 606, 1210
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 7
-Warrior_03__HURT
+HURT
   rotate: false
   xy: 606, 1210
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 3
-Warrior_03__HURT
+HURT
   rotate: false
   xy: 908, 1210
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 4
-Warrior_03__HURT
+HURT
   rotate: false
   xy: 908, 1210
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 6
-Warrior_03__HURT
+HURT
   rotate: false
   xy: 1210, 1210
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 9
-Warrior_03__HURT
+HURT
   rotate: false
   xy: 1210, 1210
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 1
-Warrior_03__IDLE
+IDLE
   rotate: false
   xy: 304, 1512
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 9
-Warrior_03__IDLE
+IDLE
   rotate: false
   xy: 2, 606
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 1
-Warrior_03__IDLE
+IDLE
   rotate: false
   xy: 2, 304
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 6
-Warrior_03__IDLE
+IDLE
   rotate: false
   xy: 304, 304
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 3
-Warrior_03__IDLE
+IDLE
   rotate: false
   xy: 304, 2
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 8
-Warrior_03__IDLE
+IDLE
   rotate: false
   xy: 908, 606
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 0
-Warrior_03__IDLE
+IDLE
   rotate: false
   xy: 1210, 606
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 5
-Warrior_03__IDLE
+IDLE
   rotate: false
   xy: 1210, 2
   size: 300, 300
@@ -297,42 +297,42 @@ size: 1024, 1024
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-Warrior_03__ATTACK
+ATTACK
   rotate: false
   xy: 2, 606
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 5
-Warrior_03__ATTACK
+ATTACK
   rotate: false
   xy: 606, 606
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 2
-Warrior_03__DIE
+DIE
   rotate: false
   xy: 304, 304
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 4
-Warrior_03__HURT
+HURT
   rotate: false
   xy: 304, 2
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 5
-Warrior_03__IDLE
+IDLE
   rotate: false
   xy: 2, 304
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 7
-Warrior_03__IDLE
+IDLE
   rotate: false
   xy: 606, 304
   size: 300, 300

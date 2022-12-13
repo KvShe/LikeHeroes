@@ -14,11 +14,10 @@ public class Lancer extends Warrior {
     public Lancer(ArrayList<Npc> friends, int x, int y, int count) {
         super(4, 5, new int[]{1, 3}, 10, 4);
         super.friends = friends;
-        super.vector = new Vector2D(x, y);
+        super.vector2D = new Vector2D(x, y);
         super.vector2 = new Vector2(x, y);
-        super.texture = new Texture("lancer.png");
         super.count = count;
-        TextureAtlas atlas = new TextureAtlas("atlases/lancer.atlas");
-        super.animation = new AtlasAnimation(atlas, "Elf_02__IDLE", 9, Animation.PlayMode.LOOP);
+        atlas = new TextureAtlas("atlases/lancer.atlas");
+        super.animation = new AtlasAnimation(atlas, "IDLE", 9, Animation.PlayMode.LOOP);
     }
 }

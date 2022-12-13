@@ -16,35 +16,36 @@ public abstract class Warrior extends Npc {
     public void step(List<Npc> enemies) {
         if (getState() == Status.DEAD) return;
 
-        Npc enemy = vector.findNearestOpponent(enemies);
-        double distance = vector.distance(enemy.getVector());
+        Npc enemy = vector2D.findNearestOpponent(enemies);
+        double distance = vector2D.distance(enemy.getVector2D());
 
-        int x = getVector().x;
-        int y = getVector().y;
-        int step = 100;
+        int x = getVector2D().x;
+        int y = getVector2D().y;
+        int xEnemy = enemy.getVector2D().x;
+        int yEnemy = enemy.getVector2D().y;
+        int step = 1;
 
-        if (distance <= Math.sqrt(20_000)) {
+        if (distance <= Math.sqrt(2)) {
             damage(enemy);
-            System.out.println(getClass().getSimpleName() + " -> " + enemy.getClass().getSimpleName()); // TODO
-        } else if (x > enemy.getVector().x && isValid(new Vector2D(x - step, y)) && x - step >= Heroes.LEFT_WIGHT) {
-            setVector(new Vector2D(x - step, y));
-            System.out.println(getClass().getSimpleName() + " -> " + enemy.getClass().getSimpleName()); // TODO
-        } else if (x < enemy.getVector().x && isValid(new Vector2D(x + step, y)) && x + step <= Heroes.WITH) {
-            setVector(new Vector2D(x + step, y));
-            System.out.println(getClass().getSimpleName() + " -> " + enemy.getClass().getSimpleName()); // TODO
-        } else if (y > enemy.getVector().y && isValid(new Vector2D(x, y - step)) && y - step >= Heroes.LOWER_BOUND) {
-            setVector(new Vector2D(x, y - step));
-            System.out.println(getClass().getSimpleName() + " -> " + enemy.getClass().getSimpleName()); // TODO
-        } else if ((y < enemy.getVector().y && isValid(new Vector2D(x, y + step))) && y + step < Heroes.HEIGHT) {
-            setVector(new Vector2D(getVector().x, y + step));
-            System.out.println(getClass().getSimpleName() + " -> " + enemy.getClass().getSimpleName()); // TODO
+        } else if (x > xEnemy && isValid(x - step, y)) {
+            setVector2D(new Vector2D(x - step, y));
+        } else if (x < xEnemy && isValid(x + step, y)) {
+            setVector2D(new Vector2D(x + step, y));
+        } else if (y > yEnemy && isValid(x, y - step)) {
+            setVector2D(new Vector2D(x, y - step));
+        } else if (y < yEnemy && isValid(x, y + step)) {
+            setVector2D(new Vector2D(x, y + step));
         }
 
+        System.out.println(getClass().getSimpleName() + " -> " + enemy.getClass().getSimpleName());
         if (getHp() < 3) setState(Status.INJURED);
     }
 
-    public boolean isValid(Vector2D vector) {
-        for (Npc npc : getFriends()) if (vector.x == npc.getVector().x && vector.y == npc.getVector().y) return false;
-        return true;
+    private boolean isValid(int x, int y) {
+        return x >= Heroes.LEFT_WIGHT
+                && x <= Heroes.RIGHT_WIGHT
+                && y >= Heroes.LOWER_BOUND
+                && y <= Heroes.UPPER_BOUND
+                && vector2D.isValid(new Vector2D(x, y), getFriends());
     }
 }
