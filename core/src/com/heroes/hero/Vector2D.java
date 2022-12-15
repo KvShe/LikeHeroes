@@ -1,4 +1,4 @@
-package com.heroes.Hero;
+package com.heroes.hero;
 
 import java.util.List;
 
@@ -16,22 +16,22 @@ public class Vector2D {
         return "(" + x + ", " + y + ")";
     }
 
-    public double distance(Vector2D hero) {
+    public double findDistance(Vector2D hero) {
         return Math.sqrt(Math.pow((this.x - hero.x), 2) + Math.pow((this.y - hero.y), 2));
     }
-    public Npc findNearestOpponent(List<Npc> enemies) {
-        int indexOpponent = 0;
+    public Npc findNearestEnemy(List<Npc> enemies) {
+        Npc enemy = null;
         double minDistance = Double.MAX_VALUE;
-        for (int i = 0; i < enemies.size(); i++) {
-            if (enemies.get(i).getState() != Status.DEAD) {
-                double distance = distance(enemies.get(i).getVector2D());
+        for (Npc npc : enemies) {
+            if (npc.getState() != Status.DEAD) {
+                double distance = findDistance(npc.getVector2D());
                 if (minDistance > distance) {
                     minDistance = distance;
-                    indexOpponent = i;
+                    enemy = npc;
                 }
             }
         }
-        return enemies.get(indexOpponent);
+        return enemy;
     }
     public boolean isValid(Vector2D vector2D, List<Npc> friends) {
         for (Npc friend : friends) {

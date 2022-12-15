@@ -4,63 +4,63 @@ size: 2048, 2048
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-Troll_03_1_ATTACK
+ATTACK
   rotate: false
   xy: 2, 1210
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 7
-Troll_03_1_ATTACK
+ATTACK
   rotate: false
   xy: 606, 1210
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 4
-Troll_03_1_ATTACK
+ATTACK
   rotate: false
   xy: 908, 1210
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 9
-Troll_03_1_ATTACK
+ATTACK
   rotate: false
   xy: 2, 2
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 1
-Troll_03_1_ATTACK
+ATTACK
   rotate: false
   xy: 1210, 1210
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 6
-Troll_03_1_ATTACK
+ATTACK
   rotate: false
   xy: 1512, 1210
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 3
-Troll_03_1_ATTACK
+ATTACK
   rotate: false
   xy: 1512, 908
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 8
-Troll_03_1_ATTACK
+ATTACK
   rotate: false
   xy: 1210, 304
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 0
-Troll_03_1_ATTACK
+ATTACK
   rotate: false
   xy: 1512, 2
   size: 300, 300
@@ -249,56 +249,56 @@ IDLE
   orig: 300, 300
   offset: 0, 0
   index: 3
-Troll_03_1_RUN
+WALK
   rotate: false
   xy: 606, 1512
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 9
-Troll_03_1_RUN
+WALK
   rotate: false
   xy: 2, 606
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 1
-Troll_03_1_RUN
+WALK
   rotate: false
   xy: 304, 606
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 6
-Troll_03_1_RUN
+WALK
   rotate: false
   xy: 606, 606
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 3
-Troll_03_1_RUN
+WALK
   rotate: false
   xy: 606, 304
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 8
-Troll_03_1_RUN
+WALK
   rotate: false
   xy: 908, 606
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 0
-Troll_03_1_RUN
+WALK
   rotate: false
   xy: 908, 304
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 5
-Troll_03_1_RUN
+WALK
   rotate: false
   xy: 1210, 2
   size: 300, 300
@@ -311,7 +311,7 @@ size: 1024, 1024
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-Troll_03_1_ATTACK
+ATTACK
   rotate: false
   xy: 2, 2
   size: 300, 300
@@ -346,14 +346,14 @@ IDLE
   orig: 300, 300
   offset: 0, 0
   index: 5
-Troll_03_1_RUN
+WALK
   rotate: false
   xy: 304, 606
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: 7
-Troll_03_1_RUN
+WALK
   rotate: false
   xy: 304, 2
   size: 300, 300

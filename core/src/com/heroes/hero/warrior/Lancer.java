@@ -1,12 +1,8 @@
-package com.heroes.Hero.Warrior;
+package com.heroes.hero.warrior;
 
-import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-import com.badlogic.gdx.math.Vector2;
-import com.heroes.Hero.Npc;
-import com.heroes.Hero.Vector2D;
-import com.heroes.View.AtlasAnimation;
+import com.heroes.hero.Npc;
+import com.heroes.hero.Vector2D;
 
 import java.util.ArrayList;
 
@@ -15,9 +11,8 @@ public class Lancer extends Warrior {
         super(4, 5, new int[]{1, 3}, 10, 4);
         super.friends = friends;
         super.vector2D = new Vector2D(x, y);
-        super.vector2 = new Vector2(x, y);
         super.count = count;
         atlas = new TextureAtlas("atlases/lancer.atlas");
-        super.animation = new AtlasAnimation(atlas, "IDLE", 9, Animation.PlayMode.LOOP);
+        super.setAnimation();
     }
 }

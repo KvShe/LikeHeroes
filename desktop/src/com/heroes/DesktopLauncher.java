@@ -1,10 +1,7 @@
 package com.heroes;
 
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.Graphics;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
-import com.heroes.Heroes;
 
 // Please note that on macOS your application needs to be started with the -XstartOnFirstThread JVM argument
 public class DesktopLauncher {
@@ -17,6 +14,6 @@ public class DesktopLauncher {
 
 
 
-		new Lwjgl3Application(new Heroes(), config);
+		new Lwjgl3Application(new LikeHeroes(), config);
 	}
 }

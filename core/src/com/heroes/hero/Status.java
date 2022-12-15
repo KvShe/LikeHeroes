@@ -1,10 +1,10 @@
-package com.heroes.Hero;
+package com.heroes.hero;
 
 public enum Status {
     STAND,
     DEAD,
     ATTACK,
     USED,
-    INJURED,
-    HURT
+    HURT,
+    WALK
 }

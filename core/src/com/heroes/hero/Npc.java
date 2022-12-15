@@ -1,12 +1,11 @@
-package com.heroes.Hero;
+package com.heroes.hero;
 
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import com.badlogic.gdx.math.Vector2;
-import com.heroes.View.AtlasAnimation;
+import com.heroes.view.AtlasAnimation;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public abstract class Npc implements BaseInterface {
     private final int attack;
@@ -16,10 +15,8 @@ public abstract class Npc implements BaseInterface {
     private final int maxHp;
     private final int speed;
     private Status state;
-    public ArrayList<Npc> friends;
+    public List<Npc> friends;
     protected Vector2D vector2D;
-    protected Vector2 vector2;
-    public TextureRegion textureRegion;
     public int count;
     public AtlasAnimation animation;
     public TextureAtlas atlas;
@@ -32,9 +29,7 @@ public abstract class Npc implements BaseInterface {
         this.speed = speed;
         maxHp = hp;
         state = Status.STAND;
-        textureRegion = new TextureRegion();
         count = 0;
-
     }
 
     public int getAttack() {
@@ -58,11 +53,10 @@ public abstract class Npc implements BaseInterface {
             this.hp = maxHp;
         } else if (hp <= 0) {
             this.hp = 0;
-            this.state = Status.DEAD;
-            animation = new AtlasAnimation(atlas, "DIE", 9, Animation.PlayMode.NORMAL);
+            setState(Status.DEAD);
 //        } else if (hp < this.hp) {
 //            this.state = Status.HURT;
-//            animation = new AtlasAnimation(atlas, "HURT", 9, Animation.PlayMode.NORMAL);
+//            setAnimation();
         } else {
             this.hp = hp;
         }
@@ -82,9 +76,10 @@ public abstract class Npc implements BaseInterface {
 
     public void setState(Status state) {
         this.state = state;
+        setAnimation();
     }
 
-    public ArrayList<Npc> getFriends() {
+    public List<Npc> getFriends() {
         return friends;
     }
 
@@ -118,10 +113,22 @@ public abstract class Npc implements BaseInterface {
         return "vector: " + vector2D;
     }
 
-    public boolean isFree(ArrayList<Npc> enemies) {
-        for (Npc enemy : enemies) {
-            if (getVector2D().x == enemy.vector2D.x && getVector2D().y == enemy.vector2D.y) return true;
+    public void setAnimation() {
+        switch (this.state) {
+            case DEAD:
+                this.animation = new AtlasAnimation(atlas, "DIE", 9, Animation.PlayMode.NORMAL);
+                break;
+            case STAND:
+                this.animation = new AtlasAnimation(atlas, "IDLE", 9, Animation.PlayMode.LOOP);
+                break;
+            case ATTACK:
+                this.animation = new AtlasAnimation(atlas, "ATTACK", 9, Animation.PlayMode.LOOP);
+                break;
+            case HURT:
+                this.animation = new AtlasAnimation(atlas, "HURT", 9, Animation.PlayMode.LOOP);
+                break;
+            case WALK:
+                this.animation = new AtlasAnimation(atlas, "WALK", 9, Animation.PlayMode.LOOP);
         }
-        return false;
     }
 }

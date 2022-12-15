@@ -1,4 +1,4 @@
-package com.heroes.Hero;
+package com.heroes.hero;
 
 import java.util.List;
 

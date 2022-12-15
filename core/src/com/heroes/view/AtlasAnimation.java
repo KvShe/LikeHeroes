@@ -1,4 +1,4 @@
-package com.heroes.View;
+package com.heroes.view;
 
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;

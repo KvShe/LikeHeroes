@@ -1,4 +1,4 @@
-package com.heroes.View;
+package com.heroes.view;
 
 public enum GameState {
     START,

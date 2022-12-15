@@ -80,7 +80,7 @@ DIE
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
-  index: 8
+  index: 9
 DIE
   rotate: false
   xy: 606, 1210
@@ -129,7 +129,7 @@ DIE
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
-  index: 7
+  index: 8
 DIE
   rotate: false
   xy: 606, 304
@@ -143,7 +143,7 @@ DIE
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
-  index: 9
+  index: 7
 DIE
   rotate: false
   xy: 1210, 606
